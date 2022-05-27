@@ -1,0 +1,29 @@
+.place__list{
+  display: grid;
+  grid-template-columns:  minmax(460px, 460px);
+  grid-gap: 48px 40px;
+  grid-template-areas:
+      "title url"
+      "image paragraph";
+
+}
+
+@media screen and (max-width:1024px) {
+  .place__list{
+    grid-gap: 48px 32px;
+    grid-template-columns:  minmax(440px, min-content);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__list{
+    grid-gap: 48px 28px;
+    grid-template-columns:  minmax(340px, min-content);
+  }
+}
+
+@media screen and (max-width:465px) {
+  .place__list{
+row-gap:32px;
+  }
+}

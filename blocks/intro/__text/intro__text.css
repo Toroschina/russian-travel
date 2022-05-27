@@ -1,0 +1,11 @@
+.intro__text{
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  font-weight: 400;
+  padding-bottom: 33px;
+  grid-column: 1;
+  grid-row: 2;
+/*   max-width: 690px; */
+}
+

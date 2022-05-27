@@ -1,0 +1,22 @@
+.header {
+  width: calc(100% - 96px);
+  display: grid;
+  grid-template-columns: 176px 1fr min-content;
+  grid-template-rows: 28px min-content;
+}
+
+
+@media screen and (max-width:768px) {
+  .header {
+    width: calc(100% - 24px*2);
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .header {
+    width: calc(100% - 16px*2);
+    grid-template-columns: 142px 1fr min-content;
+    grid-template-rows: 16px min-content;
+  }
+}

@@ -1,0 +1,7 @@
+.page {
+  font-family: 'Inter';
+  max-width: 1280px;
+  margin: 0px auto;
+  display: grid;
+  justify-items: center;
+}
