@@ -38,19 +38,19 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    min-height: 640px;
+    min-height: 62.5vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    min-height: 480px;
+    min-height: 62.5vw;
   }
 }
 
 @media screen and (max-width: 465px) {
   .cover__overlay {
-    min-height: 200px;
+    min-height: 62.5vw;
     gap: 16px;
   }
 }
