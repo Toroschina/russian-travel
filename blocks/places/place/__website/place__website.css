@@ -1,7 +1,11 @@
-.place__website{
+.place__website {
   grid-area: url;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: grid;
+  row-gap: 12px;
+  align-items: end;
+}
+@media screen and (max-width: 465px) {
+  .place__website {
+    padding-left: 16px;
+  }
 }
