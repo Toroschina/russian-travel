@@ -1,7 +1,6 @@
 .cover__overlay {
   gap: 32px;
   text-decoration: none;
-  display: block;
   position: relative;
   background: url(../../../images/cover-trains.jpg);
   background-size: cover;
