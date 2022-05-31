@@ -5,6 +5,8 @@
   letter-spacing: 2.0px;
   margin: 0;
   font-weight: 400;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 @media screen and (max-width: 465px) {
