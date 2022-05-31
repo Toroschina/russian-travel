@@ -4,24 +4,26 @@
   margin: 0;
   font-weight: 400;
   text-align: center;
-  max-width: calc(100% - 412px*2);
+  max-width: 360px;
+/*   max-width: calc(100% - 412px*2); */
 }
 
 @media screen and (max-width:1024px) {
   .cover__subtitle{
-    max-width: calc(100% - 332px*2);
+/*     max-width: calc(100% - 332px*2); */
   }
 }
 
 @media screen and (max-width:768px) {
   .cover__subtitle{
-    max-width: calc(100% - 204px*2);
+/*     max-width: calc(100% - 204px*2); */
   }
 }
 
 @media screen and (max-width:465px) {
   .cover__subtitle{
-    max-width: calc(100% - 16px*2);
+    max-width: 288px;
+/*     max-width: calc(100% - 16px*2); */
     font-size: 14px;
     line-height: 16px;
   }

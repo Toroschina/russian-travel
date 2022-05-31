@@ -1,6 +1,17 @@
-.footer{
+.footer {
   display: flex;
-  width: calc(100% - 48px*2);
-  padding-top: 92px;
+  width: calc(100% - 48px * 2);
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .footer {
+    padding: 64px 0 66px 0;
+  }
 }

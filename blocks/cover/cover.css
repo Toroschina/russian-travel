@@ -1,11 +1,13 @@
 .cover {
   padding-bottom: 92px;
-  width: calc(100% - 48px*2);
+  max-width: calc(100% - 48px * 2);
   margin: 0;
+  max-height: 740px;
+  min-width: 1184px;
 }
 
-@media screen and (max-width:1024px) {
-  .cover{
-    width: 100%;
+@media screen and (max-width: 1024px) {
+  .cover {
+
   }
 }
