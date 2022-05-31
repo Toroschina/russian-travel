@@ -3,6 +3,7 @@
   width: calc(100% - 48px * 2);
   justify-content: space-between;
   padding-bottom: 24px;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,6 +14,9 @@
 
 @media screen and (max-width: 465px) {
   .footer {
-
+    flex-direction: column;
+    padding-top: 72px;
+    width: calc(100% - 16px*2);
+    gap: 48px;
   }
 }

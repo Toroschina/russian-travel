@@ -12,3 +12,11 @@
 opacity: .8;
 transition: .5s ease-in-out;
 }
+
+@media screen and (max-width: 465px) {
+  .footer__link {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  }
+}
