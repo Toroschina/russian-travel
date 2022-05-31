@@ -2,5 +2,10 @@
   padding-bottom: 92px;
   width: calc(100% - 48px*2);
   margin: 0;
-  
+}
+
+@media screen and (max-width:1024px) {
+  .cover{
+    width: 100%;
+  }
 }

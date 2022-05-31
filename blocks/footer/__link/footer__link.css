@@ -1,0 +1,6 @@
+.footer__link{
+  display: grid;
+  list-style-type: none;
+  gap: 18px;
+grid-template-columns: repeat(5, min-content);
+}

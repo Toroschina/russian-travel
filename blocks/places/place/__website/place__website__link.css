@@ -4,4 +4,10 @@
   line-height: 22px;
   margin: 0;
   font-weight: 400;
+  transition: .5s;
+}
+
+.place__website__link:hover {
+opacity: .8;
+transition: .5s ease-in-out;
 }

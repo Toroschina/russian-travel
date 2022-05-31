@@ -7,12 +7,14 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    row-gap: 72px;
+    /*     row-gap: 73px; */ /* все съезжает */
+    row-gap: 63px;
   }
 }
 
 @media screen and (max-width: 465px) {
   .place {
-    row-gap: 50px;
+    /*     row-gap: 50px; */ /* все съезжает */
+    row-gap: 26px;
   }
 }
