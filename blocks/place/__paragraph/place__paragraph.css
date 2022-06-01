@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 465px) {
   .place__paragraph {
-    letter-spacing: 1.0px;
     white-space: normal;
   }
 }

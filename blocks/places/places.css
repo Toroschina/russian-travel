@@ -2,6 +2,7 @@
 /*   display: grid; */
   padding: 92px 0;
   width: calc(100% - 148px*2);
+  margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {

@@ -8,18 +8,6 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    /*     max-width: calc(100% - 232px*2); */
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    /*     max-width: calc(100% - 104px*2); */
-  }
-}
-
 @media screen and (max-width: 465px) {
   .cover__title {
     font-size: 32px;

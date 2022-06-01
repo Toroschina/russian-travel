@@ -4,6 +4,7 @@
   width: calc(100% - 148px*2);
   grid-template-columns: repeat(auto-fill, 690px );
   grid-template-rows: repeat(3, min-content);
+  margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {
