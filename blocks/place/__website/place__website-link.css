@@ -1,4 +1,4 @@
-.place__website_link{
+.place__website-link{
   color: #fff;
   font-size: 18px;
   line-height: 22px;
@@ -10,7 +10,7 @@
   max-width: min-content;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
 opacity: .8;
 transition: .5s ease-in-out;
 }

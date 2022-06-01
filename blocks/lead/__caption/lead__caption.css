@@ -2,7 +2,6 @@
   text-transform: uppercase;
   font-size: 10px;
   line-height: 14px;
-  width: 100%;
   text-align: left;
   letter-spacing: 1.4px;
   margin: 0;
@@ -18,6 +17,6 @@
 @media screen and (max-width:465px) {
   .lead__caption{
   /* padding-left: 16px; /при таком отступе получается не по макету/*/
-  padding-left: 35px;
+  padding-left: 16px;
   }
 }
