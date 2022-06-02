@@ -3,6 +3,13 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 680px) {
+  .menu {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
 @media screen and (max-width: 465px) {
   .menu {
     flex-direction: column;

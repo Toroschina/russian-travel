@@ -4,9 +4,17 @@
   padding-top: 92px;
 }
 
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 768px) {
   .footer {
     width: calc(100% - 24px * 2);
+  }
+}
+@media screen and (max-width: 680px) {
+  .footer {
+    flex-direction: column;
+    padding-top: 64px;
+    width: calc(100% - 16px*2);
+    gap: 48px;
   }
 }
 
