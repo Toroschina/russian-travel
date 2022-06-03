@@ -1,6 +1,5 @@
 .place {
   display: grid;
-  margin: 0;
   row-gap: 80px;
   padding: 92px 0;
   width: calc(100% - 148px * 2);
