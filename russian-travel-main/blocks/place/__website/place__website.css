@@ -1,0 +1,13 @@
+.place__website {
+  grid-area: url;
+  display: grid;
+  row-gap: 10px;
+  align-items: end;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+@media screen and (max-width: 465px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}
