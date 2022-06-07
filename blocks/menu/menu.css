@@ -9,10 +9,3 @@
     gap: 48px;
   }
 }
-
-@media screen and (max-width: 465px) {
-  .menu {
-    flex-direction: column;
-    gap: 48px;
-  }
-}

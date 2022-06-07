@@ -40,15 +40,10 @@
   }
 }
 
-@media screen and (max-width: 693px) {
-  .cover__overlay {
-    min-height: 62.5vw;
-  }
-}
+
 
 @media screen and (max-width: 465px) {
   .cover__overlay {
-    min-height: 62.5vw;
     gap: 16px;
   }
 }
