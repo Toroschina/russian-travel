@@ -21,13 +21,6 @@
   }
 }
 
-/* @media screen and (max-width: 640px) {
-  .place__list {
-    grid-gap: 42px 24px;
-    grid-template-columns: minmax(min-content, min-content);
-  }
-} */
-
 @media screen and (max-width: 767px) {
   .place__list {
     grid-gap: 32px 0;
